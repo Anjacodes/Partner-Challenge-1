@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,8 +13,15 @@
       Thank you for taking the time to help us improve the platform
     </p>
     <form id="survey-form">
-      <input id="name" type="text">
+      <label for="name">Name</label>
+      <input id="name" type="text" placeholder="Enter Your Name" />
+      <label for="email">Email</label>
+      <input
+        id="email"
+        type="email"
+        placeholder="Enter Your Email"
+        pattern=".+@globex\.com"
+      />
     </form>
-    
   </body>
 </html>
