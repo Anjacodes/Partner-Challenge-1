@@ -13,15 +13,25 @@
       Thank you for taking the time to help us improve the platform
     </p>
     <form id="survey-form">
-      <label for="name">Name</label>
+      <label for="name_label">Name</label>
       <input id="name" type="text" placeholder="Enter Your Name" />
-      <label for="email">Email</label>
+      <label for="email_label">Email</label>
       <input
         id="email"
         type="email"
         placeholder="Enter Your Email"
         pattern=".+@globex\.com"
       />
+      <label for="number_label">Age</label>
+      <input id="number" type="number" placeholder="Age" pattern="\d*" max=100 min=0/>
+      <label for="dropdown_label>Which option best describes your current role?</label>
+      <select name="dropdown" id="dropdown" placeholder="Select current role">
+      <option value="student">Student</option>
+      <option value="fullTimeJob">Full Time Job</option>
+    <option value="fullTimeLearner">Full Time Learner</option>
+    <option value="preferNotToSay">Prefer not to say</option>
+    <option value="Other">Other</option>
+     </select>
     </form>
   </body>
 </html>
