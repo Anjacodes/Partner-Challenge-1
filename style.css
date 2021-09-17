@@ -1,0 +1,36 @@
+body {
+  background-image: url("images/team-386673_1920.jpg");
+  text-align: center;
+}
+
+label {
+  color: white;
+}
+
+input {
+  margin-bottom: 4%;
+  margin-top: 1%;
+}
+
+button {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#title {
+  color: white;
+}
+
+#description {
+  color: white;
+}
+
+#survey-form {
+  opacity: 0.9;
+  text-align: left;
+  background-color: rgb(26, 26, 65);
+  margin: 10% 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
